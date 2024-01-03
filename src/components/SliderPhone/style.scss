@@ -1,0 +1,62 @@
+.slider {
+  width: 850px;
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color: black;
+  .photo {
+    .slidePage {
+      display: grid;
+      grid-template-columns: auto auto;
+      .image {
+        width: 450px;
+        height: 350px;
+        img {
+          width: 100%;
+          margin-top: 30px;
+        }
+      }
+      .text {
+        color: white;
+        margin-left: 70px;
+        margin-top: 70px;
+        .apple {
+          display: flex;
+          align-items: center;
+          gap: 20px;
+          .fa-apple {
+            font-size: 35px;
+            text-align: center;
+          }
+          p {
+            font-family: Poppins;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 24px;
+          }
+        }
+
+        h1 {
+          font-family: Inter;
+          font-size: 40px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: 60px;
+          letter-spacing: 1.92px;
+        }
+        a {
+          line-height: 24px;
+          color: white;
+          text-decoration: underline;
+          font-family: Poppins;
+          font-size: 16px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+}
+
+.slick-next {
+  display: none !important;
+}

@@ -1,0 +1,55 @@
+.sliderCategory {
+  width: 100%;
+  font-family: Poppins;
+  border-bottom: 2px solid gainsboro;
+  .head {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    h4 {
+      color: #db4444;
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+  .categoryName {
+    h1 {
+      font-family: Inter;
+      font-size: 30px;
+      font-weight: 600;
+      letter-spacing: 1.44px;
+      margin-top: 20px;
+    }
+  }
+
+  .photo {
+    margin-bottom: 70px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    width: 170px;
+    height: 145px;
+    padding: 30px 52px;
+    margin-top: 30px;
+    transition: all 600ms;
+    border-radius: 5px;
+    cursor: pointer;
+    &:hover {
+      background-color: #db4444;
+      color: white;
+      svg {
+        path {
+          stroke: white;
+        }
+        line {
+          stroke: white;
+        }
+      }
+    }
+    p {
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 24px;
+    }
+  }
+}
